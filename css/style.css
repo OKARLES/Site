@@ -1,0 +1,39 @@
+
+header {
+	background-color: red;
+}
+nav {
+	color: white;
+	font-size: 35px;
+}
+.kat {
+	text-align: center;
+	float: left;
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
+h2 {
+
+	text-align: center; 
+}
+.re {
+	border: 1px solid white;
+	resize: both;
+}
+h3 {
+	
+	text-align: center;
+}
+.texte {
+	border: 1px solid white;
+	border-radius: 4px;
+	text-align: justify;
+	padding: 
+}
+.lin {
+      text-decoration: none;
+}
