@@ -13,27 +13,83 @@ header {
 	background-color: #ee4540;
 	color: white;
 	display: flex;
-	justify-content: space-around; 
-	border: 1px solid #ee4540;
+	justify-content: space-around;
 	border-width: 100%;
 	font-size: 45px;
 	font-family: Quicksand-Light;
 	margin-top: -0px;
 }
+.tete {
+	
+}
+.menu {
+	background-color: #c72c41;
+	width:auto;
+	height: 100%;
+	padding-top: 100px;
+	padding-right: 50px;
+}
 nav {
 	font-size: 30px;
 }
 ul {
-	font-family: Quicksand-Light;
-	background-color: #c72c41;
-	color: white;
 	list-style: none;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
-	height: 100px;
 	align-items: center;
 	margin-bottom: -0px;
+	width: 100%;
+	color: white;
+	font-family: Quicksand-Light;
+	height: 100px;
+	margin-top: -0px;
+}
+.tete {
+	font-family: Quicksand-Light;
+	color: white;
+	height: 100px;
+	background: #c72c41;
+	padding-right: 50px;
+}
+ul li {
+	transition: 0.5s;
+}
+ul li a {
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+ul:hover li a {
+	transform: scale(1.5);
+	opacity: .2;
+	filter: blur(4px);
+}
+ul li a:hover
+{
+	transform: scale(2);
+	opacity: 1;
+	filter: blur(0);
+}
+ul li a:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #2d1420;
+	transition: transform 0.5s;
+	transform-origin: right;
+	transform: scaleX(0);
+	z-index: -1;  
+}
+ul li a:hover:before
+{
+	transition: transform 0.5s;
+	transform-origin: left;
+	transform: scaleX(1);
 }
 .rea {
 	text-decoration: none;
@@ -48,6 +104,10 @@ body {
 }
 main {
 	background-color: #510a32;
+}
+.prin {
+	width: 100%;
+	height: 150px;
 }
 .hub {
 	height: 500px;
@@ -64,12 +124,23 @@ main {
 	font-family: Quicksand-Light;
 	color: #ffffff;
 	background-color: #2d142c;
+	height: 60px;
+	width: 100%;
+	text-align: center;
 }
 footer {
 	text-decoration: none;
 	color: white;
+	text-align: center;
 }
 .nav {
 	background-color: #c72c41;
 	justify-content: space-around;
+}
+.com {
+	border: 1px solid #ffffff;
+	opacity: 0.5px;
+}
+form {
+	margin: 200px
 }
