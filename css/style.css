@@ -1,39 +1,75 @@
-
+@font-face {
+	font-family: Quicksand-Light;
+	src: url(quicksand/Quicksand-Light.otf);
+}
+p {
+	color: white;
+	font-family: Quicksand-Light;
+}
+.imp {
+	font-style: bold;
+}
 header {
-	background-color: red;
+	background-color: #ee4540;
+	color: white;
+	display: flex;
+	justify-content: space-around; 
+	border: 1px solid #ee4540;
+	border-width: 100%;
+	font-size: 45px;
+	font-family: Quicksand-Light;
+	margin-top: -0px;
 }
 nav {
-	color: white;
-	font-size: 35px;
-}
-.kat {
-	text-align: center;
-	float: left;
+	font-size: 30px;
 }
 ul {
+	font-family: Quicksand-Light;
+	background-color: #c72c41;
+	color: white;
+	list-style: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	list-style: none;
+	height: 100px;
+	align-items: center;
+	margin-bottom: -0px;
 }
-h2 {
-
-	text-align: center; 
+.rea {
+	text-decoration: none;
+	color: white;
 }
-.re {
-	border: 1px solid white;
-	resize: both;
+.lab {
+	text-decoration: none;
+	color: white;
 }
-h3 {
-	
-	text-align: center;
+body {
+	background-color: #2d1420;
 }
-.texte {
-	border: 1px solid white;
-	border-radius: 4px;
-	text-align: justify;
-	padding: 
+main {
+	background-color: #510a32;
 }
-.lin {
-      text-decoration: none;
+.hub {
+	height: 500px;
+	align-items: center;
+}
+.kat {
+	border: 1px solid #510a32;
+	border-radius: 18px;
+	margin-top: 45px;
+	height: 400px;
+	width: auto;
+}
+#foot {
+	font-family: Quicksand-Light;
+	color: #ffffff;
+	background-color: #2d142c;
+}
+footer {
+	text-decoration: none;
+	color: white;
+}
+.nav {
+	background-color: #c72c41;
+	justify-content: space-around;
 }
